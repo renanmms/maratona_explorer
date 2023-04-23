@@ -33,7 +33,7 @@ p {
 
 input, button{
   display: block;
-  width: 100%;
+  width: 90%;
 
   padding: 20px;
   margin: 20px;
@@ -43,6 +43,7 @@ input, button{
 
 button {
   border: none;
+  width: 100% !important;
   background-color: blueviolet;
   color: white;
   transition: filter .2s;
@@ -56,10 +57,3 @@ button:hover {
 #resposta {
   margin-top: 30px;
 }
-
-/* #resposta div {
-  font-size: 16px;
-  font-weight: normal;
-  opacity: 0.9;
-
-} */
